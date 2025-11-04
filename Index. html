@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villa Puncak Resort Cipanas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    section {
+      max-width: 800px;
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .harga {
+      background-color: #e8f5e9;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Villa Puncak Resort Cipanas</h1>
+    <p>4 Kamar Tidur • 2 Kamar Mandi • Kolam Renang Pribadi • WiFi</p>
+  </header>
+
+  <section>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Villa_in_Puncak%2C_Bogor.jpg" alt="Villa Puncak Resort Cipanas">
+
+    <h2>Deskripsi</h2>
+    <p>Villa nyaman di kawasan sejuk Puncak Resort Cipanas, Cianjur. Tersedia untuk sewa harian dan mingguan, cocok untuk keluarga atau acara kecil.</p>
+
+    <div class="harga">
+      <h3>💰 Harga Sewa:</h3>
+      <ul>
+        <li>Weekday: Rp 1.800.000 / malam</li>
+        <li>Weekend: Rp 2.500.000 / malam</li>
+      </ul>
+    </div>
+
+    <p>📍 Lokasi: Blok Gunung Gelis, Puncak Resort, Cipanas, Cianjur</p>
+    <a class="btn" href="https://wa.me/628176031280">💬 Hubungi via WhatsApp</a>
+  </section>
+
+  <footer style="text-align:center; background:#2c3e50; color:white; padding:15px;">
+    © 2025 Villa Puncak Resort Cipanas
+  </footer>
+</body>
+</html>
