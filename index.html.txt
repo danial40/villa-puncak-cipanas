@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa Puncak Resort Cipanas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      padding-bottom: 30px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .info {
+      padding: 20px;
+      line-height: 1.7;
+    }
+    .price {
+      background: #e8f5e9;
+      border-left: 5px solid #4caf50;
+      padding: 10px;
+      margin-top: 15px;
+    }
+    .contact {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      background: #2e7d32;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Villa Puncak Resort Cipanas</h1>
+    <p>Cianjur – Blok Gunung Gelis | Udara sejuk & pemandangan indah</p>
+  </header>
+
+  <div class="container">
+    <div class="gallery">
+      <img src="https://files.catbox.moe/jljb6m.jpg" alt="Kolam renang villa" />
+      <img src="https://files.catbox.moe/yt9c6c.jpg" alt="Tampak depan villa" />
+      <img src="https://files.catbox.moe/6j4flz.jpg" alt="Ruang tamu villa" />
+      <img src="https://files.catbox.moe/8pylm6.jpg" alt="Kamar tidur utama" />
+    </div>
+
+    <div class="info">
+      <h2>🏡 Deskripsi</h2>
+      <p>Villa nyaman dan luas di kawasan <strong>Puncak Resort Cipanas</strong>, dengan udara sejuk dan suasana pegunungan. Cocok untuk keluarga atau rombongan kecil yang ingin berlibur dengan tenang dan menikmati fasilitas lengkap.</p>
+
+      <h2>🛏️ Fasilitas</h2>
+      <ul>
+        <li>4 kamar tidur & 2 kamar mandi</li>
+        <li>Kolam renang pribadi</li>
+        <li>WiFi & Smart TV</li>
+        <li>Peralatan dapur lengkap</li>
+        <li>Ruang tamu & area makan luas</li>
+        <li>Halaman & taman hijau</li>
+      </ul>
+
+      <div class="price">
+        <p>💰 <strong>Harga Sewa per Malam:</strong></p>
+        <p>📅 Weekday: Rp 1.800.000<br>
+        📆 Weekend: Rp 2.500.000</p>
+      </div>
+
+      <p>📍 Lokasi: Puncak Resort Cipanas, Blok Gunung Gelis – Cianjur</p>
+
+      <a class="contact" href="https://wa.me/628176031280?text=Halo%20saya%20tertarik%20untuk%20sewa%20Villa%20Puncak%20Resort%20Cipanas" target="_blank">
+        💬 Hubungi via WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Villa Puncak Resort Cipanas – Semua Hak Dilindungi
+  </footer>
+
+</body>
+</html>
